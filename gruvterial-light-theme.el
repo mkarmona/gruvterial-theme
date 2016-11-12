@@ -141,7 +141,7 @@ The theme has to be reloaded after changing anything in this group."
        (c_aqua   faded_aqua)
        (c_orange faded_orange)
 
-       (background light0_soft)
+       (background c_bg0)
        (current-line c_bg1)
        (far-background light0_xtra)
        ;; (inactive-gray light0_soft)
