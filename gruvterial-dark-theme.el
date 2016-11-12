@@ -48,7 +48,7 @@
 
 ;;; Code:
 
-(require 'gruvterial-theme)
+(require 'gruvterial)
 
 (deftheme gruvterial-dark
   "A UI Theme for Emacs based on gruvbox and material design colors")
