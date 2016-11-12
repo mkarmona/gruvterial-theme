@@ -48,6 +48,8 @@
 
 ;;; Code:
 
+(require 'gruvterial-theme)
+
 (deftheme gruvterial-light
   "A UI Theme for Emacs based on gruvterial design colors")
 
