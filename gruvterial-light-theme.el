@@ -193,28 +193,28 @@ The theme has to be reloaded after changing anything in this group."
 
    ;; ace-window faces
    `(aw-leading-char-face ((,class (:foreground ,foreground :background ,bright_orange
-                                    :height ,
-                                    1.7
-                                    :weight
-                                    bold))))
+                                                :height ,
+                                                1.7
+                                                :weight
+                                                bold))))
 
    ;; ace-jump-faces
    `(ace-jump-face-foreground ((,class (:foreground ,foreground
-                                        :background ,bright_orange
-                                        :weight bold))))
+                                                    :background ,bright_orange
+                                                    :weight bold))))
 
    `(ace-jump-face-background ((,class (:foreground ,c_fg3
-                                        :weight normal))))
+                                                    :weight normal))))
 
    ;; avy-jump-mode
    `(avy-background-face ((,class (:foreground ,c_fg3
-                                   :weight normal))))
+                                               :weight normal))))
    `(avy-lead-face-0 ((,class (:foreground ,foreground
-                               :background ,bright_orange
-                                        :weight bold))))
+                                           :background ,bright_orange
+                                           :weight bold))))
    `(avy-lead-face ((,class (:foreground ,foreground
-                             :background ,bright_orange
-                             :weight bold))))
+                                         :background ,bright_orange
+                                         :weight bold))))
 
    ;; Flycheck
    `(flycheck-error ((,class (:underline (:style wave :color ,red)))))
@@ -278,7 +278,7 @@ The theme has to be reloaded after changing anything in this group."
 
    ;; Evil
    `(evil-search-highlight-persist-highlight-face ((,class (:foreground ,background
-                                                            :background ,green))))
+                                                                        :background ,green))))
    ;; iedit
    `(iedit-occurrence ((,class (:foreground ,background :background ,green))))
 
@@ -428,10 +428,10 @@ The theme has to be reloaded after changing anything in this group."
    `(magit-branch ((,class (:foreground ,green))))
    `(magit-diff-added ((,class (:inherit diff-added))))
    `(magit-diff-added-highlight ((,class (:inherit magit-diff-added
-                                          :background ,far-background))))
+                                                   :background ,far-background))))
    `(magit-diff-removed ((,class (:inherit diff-removed))))
    `(magit-diff-removed-highlight ((,class (:inherit magit-diff-removed
-                                            :background ,far-background))))
+                                                     :background ,far-background))))
    `(magit-header ((,class (:inherit nil :weight bold))))
    `(magit-item-highlight ((,class (:inherit highlight :background nil))))
    `(magit-log-author ((,class (:foreground ,aqua))))
@@ -443,13 +443,13 @@ The theme has to be reloaded after changing anything in this group."
    `(magit-diff-file-heading           ((t (:weight bold))))
    `(magit-diff-file-heading-highlight ((t (:background ,current-line  :weight bold))))
    `(magit-diff-file-heading-selection ((t (:background ,background
-                                            :foreground ,orange :weight bold))))
+                                                        :foreground ,orange :weight bold))))
    `(magit-diff-hunk-heading           ((t (:background ,header-color))))
    `(magit-diff-hunk-heading-highlight ((t (:background ,header-color))))
    `(magit-diff-hunk-heading-selection ((t (:background ,background
-                                            :foreground ,orange))))
+                                                        :foreground ,orange))))
    `(magit-diff-lines-heading          ((t (:background ,orange
-                                            :foreground ,background))))
+                                                        :foreground ,background))))
    `(magit-blame-heading          ((t (:background ,far-background
                                                    :foreground ,aqua))))
    `(magit-blame-date             ((t (:background ,far-background
@@ -457,7 +457,7 @@ The theme has to be reloaded after changing anything in this group."
    `(magit-blame-summary          ((t (:background ,far-background
                                                    :foreground ,green))))
    `(magit-diff-context-highlight      ((t (:background ,far-background
-                                            :foreground "grey70"))))
+                                                        :foreground "grey70"))))
    `(magit-diff-context                ((t (:foreground "grey70"))))
    `(magit-diffstat-added   ((t (:foreground ,green))))
    `(magit-diffstat-removed ((t (:foreground ,red))))
@@ -570,14 +570,14 @@ The theme has to be reloaded after changing anything in this group."
                                    :box (:line-width 1 :color nil :style pressed-button)))))
 
    `(org-level-1 ((,class (:inherit outline-1
-                         :background ,inactive-gray
-                         :weight bold
-                         :box (:style released-button)
-                         :height 1.3))))
+                                    :background ,inactive-gray
+                                    :weight bold
+                                    :box (:style released-button)
+                                    :height 1.3))))
    `(org-level-2 ((,class (:inherit outline-2
-                                  :background ,"#C8E6C9"
-                                  :box (:style released-button)
-                         :height 1.2))))
+                                    :background ,"#C8E6C9"
+                                    :box (:style released-button)
+                                    :height 1.2))))
    `(org-level-3 ((,class (:inherit outline-3  :height 1.1))))
    `(org-level-4 ((,class (:inherit outline-4  :height 1.0))))
    `(org-level-5 ((,class (:inherit outline-5 ))))
@@ -596,11 +596,11 @@ The theme has to be reloaded after changing anything in this group."
    `(markdown-header-face-8 ((,class (:inherit font-lock-function-name-face :weight bold :height 1.1 ))))
    `(markdown-header-face-9 ((,class (:inherit font-lock-function-name-face :weight bold :height 1.1 ))))
    `(markdown-header-delimiter-face ((,class (:inherit font-lock-function-name-face :weight bold
-                                              :height 1.2))))
+                                                       :height 1.2))))
    `(markdown-url-face ((,class (:inherit link))))
    `(markdown-link-face ((,class (:foreground ,blue :underline t))))
 
-   ;`(hl-sexp-face ((,class (:background ,current-line))))
+                                        ;`(hl-sexp-face ((,class (:background ,current-line))))
    `(highlight-symbol-face ((,class (:background ,selection))))
    `(highlight-80+ ((,class (:background ,current-line))))
 
