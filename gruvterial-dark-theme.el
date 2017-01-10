@@ -175,7 +175,7 @@ The theme has to be reloaded after changing anything in this group."
    `(font-lock-doc-string-face ((,class (:foreground ,yellow))))
    ;; `(font-lock-function-name-face ((,class (:foreground ,green :weight bold))))
    `(font-lock-function-name-face ((,class (:foreground ,light0_hard))))
-   `(font-lock-keyword-face ((,class (:foreground ,aqua))))
+   `(font-lock-keyword-face ((,class (:foreground ,aqua :weight bold))))
    `(font-lock-negation-char-face ((,class (:foreground ,blue))))
    `(font-lock-preprocessor-face ((,class (:foreground ,aqua))))
    `(font-lock-regexp-grouping-backslash ((,class (:foreground ,yellow))))
