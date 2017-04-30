@@ -125,7 +125,8 @@ The theme has to be reloaded after changing anything in this group."
 
        (c_gray gray_244)
 
-       (c_fg0 dark0_soft)
+       ;; (c_fg0 dark0_soft)
+       (c_fg0 dark0)
        (c_fg1 dark1)
        (c_fg2 dark2)
        (c_fg3 dark3)
@@ -167,7 +168,7 @@ The theme has to be reloaded after changing anything in this group."
    `(bold-italic ((,class (:slant italic :weight bold))))
    `(underline ((,class (:underline t))))
    `(italic ((,class (:slant italic))))
-   `(font-lock-builtin-face ((,class (:foreground ,c_red))))
+   `(font-lock-builtin-face ((,class (:foreground ,blue :weight bold))))
    `(font-lock-comment-delimiter-face ((,class (:foreground ,comment))))
    `(font-lock-comment-face ((,class (:foreground ,comment))))
    `(font-lock-constant-face ((,class (:foreground ,orange))))
@@ -175,7 +176,7 @@ The theme has to be reloaded after changing anything in this group."
    `(font-lock-doc-string-face ((,class (:foreground ,yellow))))
    ;; `(font-lock-function-name-face ((,class (:foreground ,green :weight bold))))
    `(font-lock-function-name-face ((,class (:foreground ,dark0_hard))))
-   `(font-lock-keyword-face ((,class (:foreground ,aqua))))
+   `(font-lock-keyword-face ((,class (:foreground ,aqua :weight bold))))
    `(font-lock-negation-char-face ((,class (:foreground ,blue))))
    `(font-lock-preprocessor-face ((,class (:foreground ,aqua))))
    `(font-lock-regexp-grouping-backslash ((,class (:foreground ,yellow))))
